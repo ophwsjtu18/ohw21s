@@ -8,23 +8,21 @@
 
 yyds
 
-Inline `code`
+`code`
 
-Indented code
-
-    // Some comments
+    // Some test
     line 1 of code
     line 2 of code
     line 3 of code
 
 
-Block code "fences"
+code "fences"
 
 ```
-Sample text here...
+wuhuqifei
 ```
 
-Syntax highlighting
+
 
 ``` js
 var foo = function (bar) {
@@ -32,4 +30,5 @@ var foo = function (bar) {
 };
 
 console.log(foo(5));
+console.log('wohaocai')
 ```
