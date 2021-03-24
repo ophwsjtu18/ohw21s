@@ -1,6 +1,8 @@
+# HW1
+
 ![hw1.png](https://i.loli.net/2021/03/24/Pra2Jf7Kspgw6lv.png)
 
-'''(python)
+```(python)
 import numpy as np
 import cv2
 img=cv2.imread('pic.jpg')
@@ -20,4 +22,4 @@ cv2.imshow('image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows
 cv2.imwrite('hw1.png',img)
-'''
+```
