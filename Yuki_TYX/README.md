@@ -1,4 +1,4 @@
-![pic](/Users/abc/Desktop/pic.jpg)
+![pic.jpg](https://i.loli.net/2021/03/24/1VSDwMJKC6Og9z3.jpg)
 
 
 
