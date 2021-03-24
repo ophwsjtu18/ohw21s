@@ -1,1 +1,1 @@
-# This is my first try of markdown 
+# Typora is really good!
