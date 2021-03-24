@@ -28,3 +28,10 @@ Picture
 |-----|-----|
 |Apple|1|
 |Banana|2|
+
+`inline code`  
+```
+a block of code
+
+owari
+```
