@@ -35,3 +35,6 @@ a block of code
 
 owari
 ```
+- [ ] Eat
+- [x] Code
+- [ ] Sleep
