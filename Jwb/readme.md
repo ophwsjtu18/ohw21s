@@ -1,1 +1,2 @@
-# Typora is really good!
+# Typora is really good! :smile:
+
