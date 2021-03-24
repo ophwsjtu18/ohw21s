@@ -1,7 +1,7 @@
 
 # hello world
 ##dsada
-###qdqd
+###qdqd  
 
 *amazing*
 **ewqdqd**
@@ -34,7 +34,7 @@ dssaasc\
 dsadsadadsdadadsdasda
 |dada        | sadad |
 |------------|-------|
-|wqeqeqeqe   |eqweqe |
+|wqeqeqeqe   |eqweqe |  
 -[x] dadadas
 -[]dasdasda
 -[]\(dasda)dasdw
