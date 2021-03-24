@@ -1,10 +1,5 @@
 # Hello! I'm Jwb!
-## Hello! I'm Jwb!
-### Hello! I'm Jwb!
-#### Hello! I'm Jwb!
-##### Hello! I'm Jwb!
 
-### Tables
 
 Input `| First Header  | Second Header |` and press the `return` key. This will create a table with two columns.
 
