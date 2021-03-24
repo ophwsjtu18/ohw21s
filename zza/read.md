@@ -17,4 +17,4 @@
 
 ![百度](https://www.baidu.com/img/bd_logo1.png )  
 
-[百度]http://www.baidu.com "百度一下，你就知道"
+[百度](http://www.baidu.com)
