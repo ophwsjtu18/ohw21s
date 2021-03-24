@@ -9,12 +9,12 @@ Hello World!
 
 >Blockquote
 
--A
--I
--U
--E
--O
-  -Ka
+- A
+- I
+- U
+- E
+- O
+  - Ka
 
 ***
 
