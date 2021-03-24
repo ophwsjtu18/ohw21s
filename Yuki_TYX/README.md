@@ -4,57 +4,6 @@
 
 ##  A 单词
 
-###### 《新托福真词汇》
-
-| L1-3           |                                                              |                   |                                                              |
-| :------------- | :----------------------------------------------------------- | ----------------- | ------------------------------------------------------------ |
-| at odd times   | 偶尔，闲暇时                                                 | in the course of  | 为了...                                                      |
-| overtime       | 随着时间的流逝                                               | film              | 薄膜，薄层                                                   |
-| might          | n. 力量，威力，权利(power)                                   | sound             | adj. 1.可靠的，明智的(reasonable,right) 2.健全的，完好的     |
-| poject         | v. 1.放映(screen,show) 2.预测，推想                          | story             | 楼层(floor,storey)                                           |
-| house          | v. 1.给某人住处 2.收藏，安置                                 | sediment          | 沉淀物，沉积物                                               |
-| minute         | 微小的(tiny)                                                 | cave              | v. 使塌陷，倒塌                                              |
-| cell           | 小组；电池                                                   | impact            | n./v. 冲击，冲撞                                             |
-| square         | 使打成平局                                                   |                   |                                                              |
-| **L4-6**       |                                                              |                   |                                                              |
-| resource       | 才智，谋略                                                   | resourceful       | 足智多谋的                                                   |
-| grain          | n. (木、织物等的)纹理 v.(使)成颗粒状                         | against the grain | 格格不入，违反意愿                                           |
-| deposit        | n. 1.沉淀物(sediment) 2.定金，存款 v. 1.使沉淀，堆积(accumulate，lay down) 2.寄存，放置(place) 3.储蓄 | in the air        | 广泛的，流行的                                               |
-| up in the  air | 尚未确定的                                                   | ceramic           | 1.(~s)陶器 2.制陶术                                          |
-| pigment        | 颜料，天然色素                                               | marine            | adj. 1.海的，海产的(oceanic) 2.海事的，海运的 n.（尤其指美国或英国国家）海军陆战队士兵 |
-| archaeologist  | 考古学家                                                     |                   |                                                              |
-| **L7-9**       |                                                              |                   |                                                              |
-| associate      | adj. 非正式的；副的                                          | fungus            | 真菌，霉菌(pl.fungi)                                         |
-| merchant       | n./adj. 商人（的）                                           | glacial           | 冰川期的；极冷的；冷漠的                                     |
-| pollen         | 花粉                                                         | copper            | n. 铜；铜币；紫铜色 v.镀铜于                                 |
-| reservoir      | 水库，蓄水池；储藏，汇集                                     | bark              | 树皮                                                         |
-| marsh          | 沼泽，湿地                                                   | limestone         | 石灰岩                                                       |
-| succession     | 更迭；一连串，一系列；继承，继承权                           | crater            | 坑；火山口                                                   |
-| fiber          | 纤维；性格，品质                                             | filter            | v. 过滤（液体、光）n. 过滤器                                 |
-| **L10-12**     |                                                              |                   |                                                              |
-| maize          | 玉米                                                         | ritual            | 仪式，惯例                                                   |
-| sunspot        | 太阳黑子                                                     | terrestrial       | 地球上的，陆地的，陆生的                                     |
-| crust          | 地壳；外皮；面包皮，糕点酥皮                                 | beaver            | n. 海狸，海狸皮毛 v. 卖力工作                                |
-| canoe          | 独木舟；用独木舟运                                           | climax            | n. 顶点，极点；高潮 v.达到高潮                               |
-| sandstone      | 砂岩                                                         | hemp              | 大麻                                                         |
-| herd           | n. 兽群，一群 v.放牧，使成群                                 | texture           | 质地；结构                                                   |
-| forage         | v. 匆忙搜寻；觅食 n. 粮草，饲料；搜寻粮草                    | sophisticated     | 复杂的，精密的；老练的，富有经验的                           |
-| equator        | 赤道                                                         | memoir            | 回忆录；自传                                                 |
-| phase          | n. [天文]相位；阶段，时期 v. 使分段进行                      | warbler           | 鸣鸟；用颤音唱歌的人                                         |
-| **L13-15**     |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-|                |                                                              |                   |                                                              |
-
-###### 达达的wordlist
-
 #### [List 1]
 
 | Words            | Translation                                                  |
@@ -254,7 +203,7 @@
 
   韦伯词典在线：http://www.merriam-webster.com
 
-  词源在线http://www.etymonline.com
+  词源在线：http://www.etymonline.com
 
 * 找长难句，练习找句子主干
 
