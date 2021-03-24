@@ -3,7 +3,7 @@
 * self introduction 
 
 hobbies: coding , photographing and vocaloid .  
-the following is my acont.  
+the following is my profile photo.  
 ![this is my acont](http://ys-c.ys168.com/564684544/615056866/j71366H3L6PG4khpeus37/logo.PNG)  
 
 * project  
