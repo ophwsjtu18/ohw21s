@@ -15,5 +15,7 @@
 |:--------|--------:|
 |123456|123456|
 
-[百度](https://www.baidu.com/img/bd_logo1.png )  
+![百度](https://www.baidu.com/img/bd_logo1.png )  
 
+[百度][1]
+[1]: http://www.baidu.com "百度一下，你就知道"
