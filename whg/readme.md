@@ -38,3 +38,4 @@ owari
 - [ ] Eat
 - [x] Code
 - [ ] Sleep
+- [ ] Die
