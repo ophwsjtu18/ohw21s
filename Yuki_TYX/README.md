@@ -1,4 +1,4 @@
-![Alt text](/Users/abc/Desktop/pic.jpg)
+![pic](/Users/abc/Desktop/pic.jpg)
 
 
 
