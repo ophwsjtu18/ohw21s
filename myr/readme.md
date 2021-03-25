@@ -12,7 +12,7 @@
  This is an [example
  link](https://github.com/)
  
- ![Favorite Pic][https://github.com/satori-koishi-DIO/Test/blob/master/Pic/InkedSTARS_18055_000_LI.jpg)
+ ![Favorite pic](https://github.com/satori-koishi-DIO/Test/blob/master/Pic/InkedSTARS_18055_000_LI.jpg)
  \*whajlksjd\*
  `This is Inline code`  
  
@@ -36,7 +36,27 @@
  -[3]\Madsad
 :sadas
 🥇
-![homework Pic][https://github.com/ophwsjtu18/ohw21s/blob/main/myr/lianhua.png]
+![homework Pic](https://github.com/ophwsjtu18/ohw21s/blob/main/myr/result.png)
+## Code
+```
+import numpy as np  
+import cv2  
+img = cv2.imread('lianhua.png')  
+
+head=img[250:400,600:800]  
+
+for i in range(3):  
+    for j in range(3):  
+        img[150*j:150*j+150,200*i:200*i+200]=head  
+        cv2.rectangle(img,(200*i,150*j),(200*i+200,150*j+150),(0,255,0),3)  
+        
+        
+        
+cv2.imshow('image',img)  
+cv2.waitKey(0)  
+cv2.destroyAllWindows()  
+```
+
 
  
 
