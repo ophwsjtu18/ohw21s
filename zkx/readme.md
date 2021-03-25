@@ -8,15 +8,21 @@
 | 3 | 2.0 | 2.1 |
 
 ## font style
-**This text is bold **
-_ This text is italicized _
-___ bold and italicized ___
-~~ delete ~~
+
+**This text is bold**
+
+*This text is italicized*
+
+___bold and italicized___
+
+~~delete ~~
  
 ## link
 [name](https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title")
+
 [name2][1]
 [1]:https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title2"
+
 [name3][]
 [name3]:https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title3"
 
