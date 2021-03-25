@@ -12,8 +12,6 @@
  This is an [example
  link](https://github.com/)
  
- ![Favorite pic](https://github.com/satori-koishi-DIO/Test/blob/master/Pic/InkedSTARS_18055_000_LI.jpg)
- \*whajlksjd\*
  `This is Inline code`  
  
  ```
