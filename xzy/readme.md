@@ -1,8 +1,8 @@
 # HEADING
 
-## Hello,world!
+## 作业
 
-![avatar](45818.jpg)
+![效果图](pic.png)
 
 ## Hello,SJTU.
 
