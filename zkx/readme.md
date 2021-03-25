@@ -40,7 +40,7 @@ ___bold and italicized___
 
 ---
 
-```python:
+```python
 import numpy as np
 import cv2
 img = cv2.imread('wallhaven-q6wxvd.png',1)
@@ -62,3 +62,22 @@ cv2.imshow('image',res)
   * 2.2
 + three
 + four
+
+---
+
+```sequence
+小异常->大异常: 嘿，老大, 看完博客评论了没?
+Note right of 大异常: 大异常愣了一下，说：
+大异常-->小异常: 呀，差点忘了，马上评论
+```
+
+``` flow
+st=>start: 开始
+e=>end: 结束
+com=>operation: 开始评论
+cond=>condition: 确认评论？
+
+st->com->cond
+cond(yes)->e
+cond(no)->com
+```
