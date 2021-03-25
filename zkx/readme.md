@@ -7,16 +7,20 @@
 | 2 | 1.0 | 1.1 |
 | 3 | 2.0 | 2.1 |
 
-1. font style
+## font style
 ** This text is bold **
 * This text is italicized *
 *** bold and italicized ***
  ~~ delete ~~
-2.link
+## link
 [name](https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title")
 [name2][1]  [1]:https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title"
 [name3][] [name3]:https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title"
-3. > Have  >>you  >>>heard  >>>>of >>>>>matryoshka
+> Have  
+>>you  
+>>>heard
+>>>>of 
+>>>>>matryoshka
 
 * one
   * 1.1
