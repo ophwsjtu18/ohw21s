@@ -8,7 +8,7 @@
 | 3 | 2.0 | 2.1 |
 
 ## font style
-__ This text is bold __
+** This text is bold **
 
 _ This text is italicized _
 
@@ -21,11 +21,11 @@ ___ bold and italicized ___
 
 [name2][1]
 
-[1]:https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title"
+[1]:https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title2"
 
 [name3][]
 
-[name3]:https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title"
+[name3]:https://github.com/ophwsjtu18/ohw21s/tree/main/zkx "title3"
 
 > Have  
 >>you  
