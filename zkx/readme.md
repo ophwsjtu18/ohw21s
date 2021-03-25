@@ -40,7 +40,7 @@ ___bold and italicized___
 
 ---
 
-'''python
+'''python:
 import numpy as np
 import cv2
 img = cv2.imread('wallhaven-q6wxvd.png',1)
