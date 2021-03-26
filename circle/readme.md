@@ -7,7 +7,7 @@ I'm a new githuber, welcome to give directions!:D
 Here is my profile photo.  
 
 ![Circleplus](https://avatars.githubusercontent.com/u/81300841?s=60&v=4)  
-*Oh this profile photo comes form Alice*
+*Oh, this profile photo comes from Alice*
 
 ## Projects
 Not yet.
