@@ -31,7 +31,7 @@ This is the original picture.
 ```python
 import cv2
 
-img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")
+img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")  ## The path is your picture's path in your computer.
 
 cv2.imshow('pic', img)
 cv2.waitKey(0)
@@ -42,7 +42,7 @@ cv2.destroyAllWindows()
 ```python
 import cv2
 
-img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")  ## The path is your picture's path in your computer.
+img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")
 
 hd = img[368:488, 1014:1108]
 for i in range(3):
@@ -74,6 +74,3 @@ cv2.destroyAllWindows()
 ```
 It should come out like this:
 ![Alice-mihayo](https://github.com/ophwsjtu18/ohw21s/blob/main/circle/test3.jpg)
-
-
-
