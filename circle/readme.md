@@ -32,6 +32,7 @@ This is the original picture.
 import cv2
 
 img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")
+
 cv2.imshow('pic', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
@@ -42,14 +43,37 @@ cv2.destroyAllWindows()
 import cv2
 
 img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")  ## The path is your picture's path in your computer.
+
 hd = img[368:488, 1014:1108]
 for i in range(3):
     for j in range(3):
         img[120*i:120*i+120, 94*j:94+94*j] = hd
+        
 cv2.imwrite("C:\\Users\\LENOVO\\Desktop\\test2.jpg", img)
+cv.imshow('pic', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 The picture becomes more interesting like this:
+![Alice-mihayo](https://github.com/ophwsjtu18/ohw21s/blob/main/circle/test2.jpg)  
+
+- If you would like to draw your picture, here is an example for rectangles:
+```python
+import cv2
+
+img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")
+
+for i in range(3):
+    for j in range(3):
+        cv2.rectangle(img, (200*i, 100*j), (200*i+200, 100*j+100), (93, 173, 120), 3)
+
+cv2.imwrite("C:\\Users\\LENOVO\\Desktop\\test3.jpg", img)
+cv2.imshow('Alice', img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+It should come out like this:
+![Alice-mihayo](https://github.com/ophwsjtu18/ohw21s/blob/main/circle/test3.jpg)
+
 
 
