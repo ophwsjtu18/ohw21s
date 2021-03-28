@@ -1,7 +1,10 @@
 # Circleplus
 
 ---
-
+  
+    
+      
+      
 ## Introduction
 I'm a new githuber, welcome to give directions!:D  
 Here is my profile photo.  
@@ -23,7 +26,8 @@ But I'm interested in **Deep Learning** and **Crawlers**.
 ## Homework
 This is the original picture.
 ![Original pic](http://i1.hdslb.com/bfs/archive/70bf163cec3d7373d47bf624353fa2c7362158c9.jpg)  
-To get this pic, you use python with the following code:  
+
+- To get this pic, you use python with the following code:  
 ```python
 import cv2
 
@@ -31,5 +35,8 @@ img = cv2.imread(http://i1.hdslb.com/bfs/archive/70bf163cec3d7373d47bf624353fa2c
 cv2.imshow('pic', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-'''
+```
+
+- Now let's do some tricks.
+
 
