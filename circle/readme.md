@@ -10,8 +10,7 @@ I'm a new githuber, welcome to give directions:D
 Here is my profile photo.  
 
 ![Circleplus](https://avatars.githubusercontent.com/u/81300841?s=60&v=4)  
-*Oh, this profile photo comes from [Alice](https://www.bing.com/search?q=%E7%89%A9%E8%BF%B0%E6%9C%89%E6%A0%96&form=ANNTH1&refig=bc5df75eec314dcb83b8a9db66fc3593).*
-Horrible, Hahn?
+*Oh, this profile photo comes from [The Legend of Luo Xiao Hei](https://www.bing.com/search?q=The+legend+of+luo+xiao+hei&qs=n&form=QBRE&sp=-1&pq=the+legend+of+luo+xiao+hei&sc=8-26&sk=&cvid=C850CE2D82C24E9AAA3DE5CFDDDC2342).*
 
 ## Projects
 Not yet.
