@@ -19,4 +19,4 @@
   cv2.destroyAllWindows()
 ```
 
-![picture](http://note.youdao.com/s/5zEoNtZC)
+![picture](http://note.youdao.com/s/5zEoNtZC "pic")
