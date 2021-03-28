@@ -2,7 +2,7 @@
 
 ---
 
-## Description
+## Introduction
 I'm a new githuber, welcome to give directions!:D
 Here is my profile photo.  
 
@@ -14,7 +14,7 @@ Not yet.
 But I'm interested in **Deep Learning** and **Crawlers**.
 
 
-## IDK
+## Table test
 |table1|table2|table3|
 |:-----|:----:|-----:|
 |yi|er|san|
