@@ -10,3 +10,4 @@
     cv2.imshow('image',img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
+    (图片一直上传失败我也无能为力：）
