@@ -25,7 +25,8 @@ But I'm interested in **Deep Learning** and **Crawlers**.
 
 ---
 ## Homework
-This is the original picture.
+This is the original picture.  
+
 ![Original pic](http://i1.hdslb.com/bfs/archive/70bf163cec3d7373d47bf624353fa2c7362158c9.jpg)  
 
 - **To show this pic, you may use python with the following code:**
@@ -56,7 +57,8 @@ cv.imshow('pic', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-The picture becomes more interesting like this:
+The picture becomes more interesting like this:  
+
 ![Alice-mihayo](https://github.com/ophwsjtu18/ohw21s/blob/main/circle/test2.jpg)  
   
   
@@ -75,5 +77,6 @@ cv2.imshow('Alice', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-It should come out like this:
+It should come out like this:  
+
 ![Alice-mihayo](https://github.com/ophwsjtu18/ohw21s/blob/main/circle/test3.jpg)
