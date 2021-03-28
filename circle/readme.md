@@ -6,7 +6,7 @@
       
       
 ## Introduction
-I'm a new githuber, welcome to give directions!:D  
+I'm a new githuber, welcome to give directions:D  
 Here is my profile photo.  
 
 ![Circleplus](https://avatars.githubusercontent.com/u/81300841?s=60&v=4)  
@@ -27,16 +27,29 @@ But I'm interested in **Deep Learning** and **Crawlers**.
 This is the original picture.
 ![Original pic](http://i1.hdslb.com/bfs/archive/70bf163cec3d7373d47bf624353fa2c7362158c9.jpg)  
 
-- To get this pic, you use python with the following code:  
+- To show this pic, you may use python with the following code:  
 ```python
 import cv2
 
-img = cv2.imread(http://i1.hdslb.com/bfs/archive/70bf163cec3d7373d47bf624353fa2c7362158c9.jpg)
+img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")
 cv2.imshow('pic', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 
-- Now let's do some tricks.
+- Now let's play some tricks.
+```python
+import cv2
+
+img = cv2.imread("C:\\Users\\LENOVO\\Desktop\\test.jpg")  ## The path is your picture's path in your computer.
+hd = img[368:488, 1014:1108]
+for i in range(3):
+    for j in range(3):
+        img[120*i:120*i+120, 94*j:94+94*j] = hd
+cv2.imwrite("C:\\Users\\LENOVO\\Desktop\\test2.jpg", img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+The picture becomes more interesting like this:
 
 
