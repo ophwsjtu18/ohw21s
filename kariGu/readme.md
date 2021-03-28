@@ -14,7 +14,7 @@ cv2.imshow('image',img)
 cv2.waitKey(0)  
 cv2.destroyAllWindows()  
 cv2.imwrite('hw1.png',img)  
-！[3.jpg]()
+！[Alt-example](https://github.com/ophwsjtu18/ohw21s/blob/main/kariGu/3.jpg)
 
 
 
