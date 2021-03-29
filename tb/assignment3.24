@@ -15,3 +15,5 @@ for i in range(3):
 cv2.imshow('image',img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+![image](https://github.com/ophwsjtu18/ohw21s/blob/main/tb/1.png)
