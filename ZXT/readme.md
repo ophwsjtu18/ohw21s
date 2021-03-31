@@ -19,4 +19,4 @@ Thank `You` . Please `Call` Me `DAGONGREN`
 
 # Here is my assignment:
 ## First:
-![](https://github.com/ophwsjtu18/ohw21s/ZXT/img1 (1).png)
+![](https://github.com/ophwsjtu18/ohw21s/blob/main/ZXT/img.png?raw=true)
