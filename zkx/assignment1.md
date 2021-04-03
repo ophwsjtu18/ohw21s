@@ -15,8 +15,7 @@ import cv2
 img = cv2.imread('wallhaven-q6wxvd.png',1)
 res=cv2.resize(img,(620,320))
 
-res[0:100,0:100]=res[100:200,200:300]
-sky=res[0:100,0:100]
+sky=res[100:200,200:300].copy
 
 color = (0,255,0)
 cv2.rectangle(sky,(0,0),(100,100),color,3)
