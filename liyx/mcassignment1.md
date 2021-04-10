@@ -109,6 +109,6 @@
      
 
 
-    ![qq](https://github.com/ophwsjtu18/ohw21s/blob/main/liyx/QQ%E6%88%AA%E5%9B%BE20210410185240.png)
+    ![qq](https://github.com/ophwsjtu18/ohw21s/blob/main/liyx/error.png)
     ps. 在实际操作过程中因为电脑配置或者什么其他的原因，无法在操作mc的同时加载出电脑的摄像头监视器，所以只能在视频中加批注表现；在用头操作向后的过程中，因为不知道画面后面有啥，所以出现了穿     模的情况
     还有的一点遗憾是在单独操作的过程中不可避免地会改变与当前参数无关的参量，所以导致有的时候mc里的人物跟抽风了一样。。。
