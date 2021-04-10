@@ -1,0 +1,63 @@
+![MC](https://github.com/yyh2000/assignment/blob/main/20210407%E4%BD%9C%E4%B8%9A%20.gif?raw=true)
+```python
+import cv2
+import numpy as np
+from mcpi.minecraft import Minecraft
+import time
+
+face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+eye_cascade = cv2.CascadeClassifier("haarcascade_eye.xml")
+cap=cv2.VideoCapture(0)
+flag = 1
+
+mc=Minecraft.create()
+
+pos=mc.player.getTilePos()
+print("player pos is",pos)
+
+hold=80
+size1=300
+size2=100
+
+while True:
+    ret,img = cap.read()
+    img = cv2.flip(img,1)
+    gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
+    
+    faces = face_cascade.detectMultiScale(gray,1.3,5)
+    for (x,y,w,h) in faces:
+        cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+        roi_gray = gray[y:y+h,x:x+w]
+        roi_color = img[y:y+h,x:x+w]
+        time.sleep(0.001)
+        a=x+w/2
+        b=y+h/2
+        pos=mc.player.getTilePos()
+        mc.postToChat("x:"+str(pos.x)+"y:"+str(pos.y)+"z:"+str(pos.z)) 
+        print("x:"+str(pos.x)+"y:"+str(pos.y)+"z:"+str(pos.z)) 
+        if a<320-hold:
+            mc.player.setTilePos(pos.x+1,pos.y,pos.z)
+            print("left")
+        elif a>320+hold:
+            mc.player.setTilePos(pos.x-1,pos.y,pos.z)
+            print("right")
+        if b<240-hold:
+            mc.player.setTilePos(pos.x,pos.y+1,pos.z)
+            print("up")
+        elif b>240+hold:
+            mc.player.setTilePos(pos.x,pos.y-1,pos.z)
+            print("down")
+        if h>size1:
+            mc.player.setTilePos(pos.x,pos.y,pos.z+1)
+            print("front")
+        elif h<size2:
+            mc.player.setTilePos(pos.x,pos.y,pos.z-1)
+            print("back")
+    cv2.imshow("img",img)
+    k = cv2.waitKey(20) & 0xff
+    
+    if k== 27:  #press 'ESC' to quit
+        break  
+cap.release()
+cv2.destroyAllWindows()
+```
