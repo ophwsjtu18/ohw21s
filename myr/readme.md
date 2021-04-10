@@ -34,7 +34,7 @@
  -[3]\Madsad
 :sadas
 🥇
-![homework Pic](https://github.com/ophwsjtu18/ohw21s/blob/main/myr/result.png)
+![homework Pic](https://github.com/ophwsjtu18/ohw21s/blob/main/myr/result.png)??
 ## Code
 ```
 import numpy as np  
