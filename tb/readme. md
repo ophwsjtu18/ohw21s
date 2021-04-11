@@ -34,10 +34,10 @@ while True:
         elif a>400:
             mc.player.setTilePos(pos.x-1,pos.y,pos.z)
             print("right")
-        if b<240:
+        if b<160:
             mc.player.setTilePos(pos.x,pos.y+1,pos.z)
             print("up")
-        elif b>400:
+        elif b>320:
             mc.player.setTilePos(pos.x,pos.y-1,pos.z)
             print("down")
         if h>300:
