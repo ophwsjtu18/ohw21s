@@ -6,13 +6,13 @@
     cap = cv2.VideoCapture(0)
     face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-    dic=0
+    dic=0  //dic用0，1，2，3表示人物在平面内的四个方向
     mc=Minecraft.create()
 
     pos=mc.player.getTilePos()
     print("player pos is",pos)
-    mc.player.setDirection(1,0,0)
-    mc.player.setTilePos(-32,9,-45)
+    mc.player.setDirection(1,0,0) //设置初始方向
+    mc.player.setTilePos(-32,9,-45) //设置初始位置
 
     stayed_time=0
     while True:
@@ -30,7 +30,7 @@
                 time.sleep(0.5)
             elif x>300:
                 dic=(dic-1)%4
-                time.sleep(0.5)
+                time.sleep(0.5) //x的大小决定人物左转或者右转，在200-300内保持不动
 
             if(dic==0):
                 mc.player.setDirection(1,0,0)
@@ -43,14 +43,14 @@
                 time.sleep(0.5)
             elif(dic==3):
                 mc.player.setDirection(0,0,-1)
-                time.sleep(0.5)
+                time.sleep(0.5) //由初始方向决定了0，1，2，3分别是沿着+x，+z,-x,-z方向
             
             if y>200:
                 mc.player.setTilePos(pos.x,pos.y-1,pos.z)
                 time.sleep(0.5)
             elif y<150:
                 mc.player.setTilePos(pos.x,pos.y+1,pos.z)
-                time.sleep(0.5)
+                time.sleep(0.5) //y决定了人物的上下位置
             if w*h>250*250:
                 if(dic==0):
                     mc.player.setTilePos(pos.x+1,pos.y,pos.z)
@@ -76,7 +76,7 @@
                     time.sleep(0.5)
                 elif(dic==3):
                     mc.player.setTilePos(pos.x,pos.y,pos.z+1)
-                    time.sleep(0.5)
+                    time.sleep(0.5) //人脸的大小决定人物向前或向后走
             print(dic)
             '''cv2.imshow('frame',frame)'''
         '''if pos.x==-30 and pos.z==-40 and pos.y==-6:
