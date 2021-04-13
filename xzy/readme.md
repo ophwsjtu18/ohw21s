@@ -2,7 +2,7 @@
 
 ## 作业1
 
-[python代码](assignment1.py)
+[代码](assignment1.py)
 
 ![效果图](assignment1.png)
 
@@ -12,3 +12,6 @@
 |  ----  | ----  |
 | 1  | 2 |
 | 1  | 2 |
+
+## 作业2
+[代码](assignment2.py)
