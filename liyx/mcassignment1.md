@@ -29,7 +29,7 @@
                 dic=(dic+1)%4
                 time.sleep(0.5)
             elif x>300:
-                dic=(dic-1)%4
+                dic=(dic+3)%4
                 time.sleep(0.5) //x的大小决定人物左转或者右转，在200-300内保持不动
 
             if(dic==0):
