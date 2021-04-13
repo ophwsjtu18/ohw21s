@@ -20,3 +20,6 @@ Thank `You` . Please `Call` Me `DAGONGREN`
 # Here is my assignment:
 ## First:
 ![image](https://user-images.githubusercontent.com/81301110/113165757-c3933c00-9274-11eb-8d4b-e950338d1bb0.png)
+
+## Second:
+https://github.com/ophwsjtu18/ohw21s/blob/main/ZXT/MC_humanface.py
