@@ -2,14 +2,13 @@ from mcpi.minecraft import Minecraft
 import cv2
 import numpy as np
 
+face_cascade = cv2.CascadeClassifier("C:\\Users\\86183\\AppData\\Roaming\\Python\\Python38\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml")
+cap = cv2.VideoCapture(0)
+
 mc = Minecraft.create()
 position = mc.player.getPos()
 mc.postToChat("welcome to mc")
 mc.postToChat("Now_Position:" + str(position))
-
-face_cascade = cv2.CascadeClassifier("C:\\Users\\86183\\AppData\\Roaming\\Python\\Python38\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml")
-cap = cv2.VideoCapture(0)
-
 def go(action):
 
     pos = mc.player.getPos()
