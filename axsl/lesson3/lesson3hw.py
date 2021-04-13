@@ -30,8 +30,6 @@ def go(action):
     else:
         pass
 
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-cap = cv2.VideoCapture(0)
 
 while(True):
     ret, img = cap.read()
