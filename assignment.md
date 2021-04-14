@@ -14,3 +14,10 @@
 3.人脸在中间一定位置时玩家不动  
 4.游戏效果视频及代码上传自己的目录  
 
+# 20210414作业
+1.定义House类，初始化函数可以给定初始点坐标x0，y0，z0，并能给定长宽高l w h  
+2.利用类里面的buildWall buildFloor buildRoof buildDoor BuildWindow 造房子  
+3.要求长宽高变化时，门窗位置都在中间合理位置  
+4.利用IsInHome函数判断是否在某个房子里  
+5.利用name在welcomehome循环里打印出在哪个房子里的名字  
+
