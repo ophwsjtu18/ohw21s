@@ -23,3 +23,6 @@ Thank `You` . Please `Call` Me `DAGONGREN`
 
 ## Second:
 https://github.com/ophwsjtu18/ohw21s/blob/main/ZXT/MC_humanface.py
+
+## Third:
+https://github.com/ophwsjtu18/ohw21s/blob/main/ZXT/buildhouse.py
