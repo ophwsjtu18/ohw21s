@@ -1,0 +1,120 @@
+from mcpi.minecraft import Minecraft
+import time
+
+mc=Minecraft.create()
+
+pos=mc.player.getTilePos()
+print("player pos is",pos)
+
+class House():
+    def __init__(self,name,x0,y0,z0,l,w,h):
+        self.name=name
+        self.x0=x0
+        self.y0=y0
+        self.z0=z0
+        self.l=l
+        self.w=w
+        self.h=h
+        print("I will build a house named",self.name)
+    def buildwall(self):
+        for k in range(self.h):
+            if k%2==0:
+                m=46
+            else:
+                m=1
+            for i in range(self.l):
+                mc.setBlock(self.x0+i,self.y0+k,self.z0,m)
+                mc.setBlock(self.x0+i,self.y0+k,self.z0+self.w,m)
+            for j in range(self.w):
+                mc.setBlock(self.x0,self.y0+k,self.z0+j,m)
+                mc.setBlock(self.x0+self.l-1,self.y0+k,self.z0+j,m)
+        
+    def buildroof(self):
+        for i in range(self.l):
+            for j in range(self.w):
+                mc.setBlock(self.x0+i,self.y0+self.h,self.z0+j,20)
+                
+    def buildfloor(self):
+        for i in range(self.l):
+            for j in range(self.w):
+                mc.setBlock(self.x0+i,self.y0,self.z0+j,35,2)
+                
+    def builddoor(self):
+        mc.setBlock(self.x0+self.l//2,self.y0+1,self.z0,0)
+        mc.setBlock(self.x0+self.l//2,self.y0+2,self.z0,0)
+
+    def buildwindow(self):
+        mc.setBlock(self.x0+self.l-1,self.y0+self.h//2,self.z0+self.w//2,20)
+        mc.setBlock(self.x0+self.l-1,self.y0+self.h//2+1,self.z0+self.w//2,20)
+        mc.setBlock(self.x0+self.l-1,self.y0+self.h//2,self.z0+self.w//2+1,20)
+        mc.setBlock(self.x0+self.l-1,self.y0+self.h//2+1,self.z0+self.w//2+1,20)
+
+    def isInHome(self,x1,y1,z1):
+        if self.x0<x1<self.x0+self.l and self.z0<z1<self.z0+self.w:
+            return True
+        else:
+            return False
+        
+houses=[]
+house1=House("peter",pos.x,pos.y,pos.z,10,6,15)
+house2=House("tom",pos.x+20,pos.y,pos.z,7,14,6)
+houses.append(house1)
+houses.append(house2)
+print("house1 name is",house1.name)
+print("house2 name is",house2.name)
+
+house1.buildwall()
+house1.buildroof()
+house1.buildfloor()
+house1.builddoor()
+
+house2.buildwall()
+house2.buildroof()
+house2.buildfloor()
+house2.builddoor()
+
+
+
+def buildHouse(x0,y0,z0,l,w,h):
+    #Build wall
+    for y in range(6):
+        if y%2==0:
+            m=46
+        else:   
+            m=1
+        for x in range(10): 
+            mc.setBlock(x0+x,y0+y,z0,m)
+            mc.setBlock(x0+x,y0+y,z0+15,m)
+        for z in range(15):
+            mc.setBlock(x0,y0+y,z0+z,m)
+            mc.setBlock(x0+10,y0+y,z0+z,m)
+    #Build floor in wool
+    for x in range(10):
+        for z in range(15):
+            mc.setBlock(x0+x,y0,z0+z,35,2)
+
+    #Build roof in glass
+    for x in range(10):
+        for z in range(15):
+            mc.setBlock(x0+x,y0+6,z0+z,20)
+
+    #Build door in the middle of x
+    mc.setBlock(x0+5,y0+1,z0,0)
+    mc.setBlock(x0+5,y0+2,z0,0)
+
+    #Build window in the middle of z
+    mc.setBlock(x0+10,y0+3,z0+7,20)
+    mc.setBlock(x0+10,y0+4,z0+7,20)
+    mc.setBlock(x0+10,y0+3,z0+8,20)
+    mc.setBlock(x0+10,y0+4,z0+8,20)
+
+
+
+
+while True:
+    time.sleep(0.5)
+    pos=mc.player.getTilePos()
+    
+    for house in houses:
+        if house.isInHome(pos.x,pos.y,pos.z):
+            print("Welcome to "+house.name+" home")
