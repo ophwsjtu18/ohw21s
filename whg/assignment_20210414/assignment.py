@@ -92,8 +92,7 @@ print("house2 name is",house2.name)
 
 while True:
     pos=mc.player.getPos()
-    temp = houses
-    for house in temp:
+    for house in houses:
         if house.isInHome(pos.x,pos.y,pos.z):
             mc.postToChat("I am in %s's house!"%(house.name))
             break
