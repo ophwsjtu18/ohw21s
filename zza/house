@@ -1,0 +1,80 @@
+from mcpi.minecraft import Minecraft
+import time
+
+mc=Minecraft.create()
+
+pos=mc.player.getTilePos()
+print("player pos is",pos)
+
+
+class House():
+    def __init__(self,name,x0,y0,z0,l,h,w):
+        self.name=name
+        self.x0=x0
+        self.y0=y0
+        self.z0=z0
+        self.l=l
+        self.w=w
+        self.h=h
+        print("I will build a house named",self.name)
+
+    def buildWall(self):
+        print("I will buildwall on",self.x0,self.y0,self.z0)
+        for j in range(self.h):
+            if j%2==0:
+                m=46
+            else:
+                m=1
+            for i in range(self.l):
+                mc.setBlock(self.x0+i,self.y0+j,self.z0,m)
+            for i in range(self.w-1):
+                mc.setBlock(self.x0,self.y0+j,self.z0+i+1,m)
+                mc.setBlock(self.x0+self.l-1,self.y0+j,self.z0+i+1,m)
+            for i in range(self.l-2):
+                mc.setBlock(self.x0+i+1,self.y0+j,self.z0+self.w-1,m)
+    def buildRoof(self):
+        for i in range(self.l-2):
+            for j in range(self.w-2):
+                mc.setBlock(self.x0+i+1,self.y0+self.h-1,self.z0+j+1,20)
+    def buildFloor(self):
+        for i in range(self.l-2):
+            for j in range(self.w-2):
+                mc.setBlock(self.x0+i+1,self.y0,self.z0+j+1,5)
+    def buildDoor(self):
+        for i in range(3):
+            for j in range(3):
+                mc.setBlock(self.x0+i+self.l//2,self.y0+j+1,self.z0,0)
+    def buildWindow(self):
+        for i in range(2):
+            for j in range(2):
+                mc.setBlock(self.x0,self.y0+j+self.h//2,self.z0+i+self.w//2,20)
+    def isInHome(self,x1,y1,z1):
+        if self.x0<x1<self.x0+self.l and self.z0<z1<self.z0+self.w:
+            return True
+        else:
+            return False
+        
+        
+        
+houses=[]
+house1=House("peter",pos.x,pos.y,pos.z,10,6,15)
+house2=House("tom",pos.x+20,pos.y,pos.z,20,7,10)
+houses.append(house1)
+houses.append(house2)
+print("house1 name is",house1.name)
+print("house2 name is",house2.name)
+for i in houses:
+    i.buildWall()
+    i.buildRoof()
+    i.buildFloor()
+    i.buildDoor()
+    i.buildWindow()
+
+while(True):
+    pos=mc.player.getTilePos()
+    for i in houses:
+        if i.isInHome(pos.x,pos.y,pos.z):
+            print("Welcome to "+i.name+"'s home")
+
+
+
